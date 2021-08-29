@@ -1,4 +1,4 @@
 FROM tomcat:8
-LABEL moni@gmail.com
+LABEL owner=moni
 COPY target/*.war /usr/local/tomcat/webapps/
 
