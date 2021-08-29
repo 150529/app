@@ -1,4 +1,4 @@
 FROM tomcat:8
 LABEL owner=moni
-COPY target/*.war /usr/local/tomcat/webapps/
+COPY target/*.jar /usr/local/tomcat/webapps/
 
